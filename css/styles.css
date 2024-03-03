@@ -163,7 +163,7 @@ h3 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-img.jpg);
+    url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -173,9 +173,7 @@ h3 {
 .hero-container {
   max-width: 1128px;
   max-height: 600px;
-  padding: 0 auto;
 }
-
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -233,7 +231,6 @@ h3 {
   height: 112px;
   background-color: #f4f4fd;
   margin-bottom: 8px;
-  padding: 24px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
