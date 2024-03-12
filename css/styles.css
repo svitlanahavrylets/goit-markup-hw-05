@@ -632,6 +632,9 @@ h3 {
 .form-field-wrapper {
   margin-bottom: 8px;
   }
+  .form-field-wrapper-comment {
+    margin-bottom: 16px;
+  }
 .form-field-input-wrapper {
   position: relative;
 }
