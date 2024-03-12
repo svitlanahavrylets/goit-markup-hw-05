@@ -456,9 +456,8 @@
   </div>
 <div class="subscribe">
   <p class="footer-right-text">Subscribe</p>
-  <div class="subscribe-container">
   <form class="form-subscribe" name="subscribe-form" autocomplete="off" novalidate>
-    <label class="subscribe-form" for="user-email-subscribe"></label>
+    <label class="subscribe-form" for="user-email-subscribe">
     <input 
   type="email"
   id="user-email-subscribe" 
@@ -469,6 +468,7 @@
   placeholder="E-mail"
   required
   />
+</label>
   <button class="btn-subscribe" type="submit">Subscribe
     <svg class="subscribe-icon" aria-label="plane" width="24" height="24">
       <use href="./images/icons.svg#icon-plane"></use>
@@ -477,17 +477,16 @@
     </form>
   </div>
 </div>
-</div>
     </footer>
     <!-- =========== /Footer section =========== -->
     <!-- =========== Backdrop section =========== -->
-    <div class="backdrop ">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg 
           class="modal-close-btn-icon"
-                height="8px"
-                width="8px"
+                height="8"
+                width="8"
                 aria-label="close-icon"
                 >
                 <use href="./images/icons.svg#icon-close-icon"></use>
@@ -558,13 +557,13 @@
           </div>
           <div class="form-field-checkbox-wrapper">
             <input 
-            id="privacy-policy"
-            name="privacy-policy" 
+            id="user-privacy"
+            name="user-privacy" 
             type="checkbox" 
             class="form-input-privacy-checkbox visually-hidden"
             value="true"
             required/>
-          <label for="privacy-policy" class="form-field-privacy-policy">
+          <label for="user-privacy" class="form-field-privacy-policy">
             <span class="form-own-checkbox">
               <svg class="form-checkbox-icon" width="10" height="8" aria-label="checkbox-icon">
                 <use href="./images/icons.svg#icon-vector-icon"></use>
