@@ -480,7 +480,7 @@ h3 {
 }
 .form-subscribe {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 .form-input-subscribe {
   font-size: 12px;
@@ -630,11 +630,10 @@ h3 {
   display: block;
 }
 .form-field-wrapper {
-  margin-bottom: 8px;
-}
+  margin-bottom: 16px;
+  }
 .form-field-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 .form-input-icon {
   position: absolute;
